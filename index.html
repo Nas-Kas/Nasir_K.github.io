@@ -1,0 +1,66 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="index.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="jquery.fullPage.js"></script>
+<link rel="stylesheet" href="jquery.fullPage.css">
+</head>
+<body>
+
+<body>
+<div id="navbar">
+<a href="#fir">Home</a>
+<a href="#sec">About Me</a>
+<a href="#thir">Projects</a>
+<a href="#four">Contact</a>
+</div>
+<div id="wrapper">
+	<div class="section" data-anchor="fir" id="first">
+			<h1 id="titleone">Hi There <br /> I'm Nasir Kasumu</h1>
+	</div>
+	<div class="section" data-anchor="sec" id="second">
+	<div id = titletwo>
+		<h1>I'm a fullstack developer <br /> My Toolbox  <br /> </h1>
+		<h2 id="tools">Java Python HTML CSS <br />
+		Javascript MySQL C# <br />
+		Bootstrap Node.js Express.js<br /></h2>
+		
+	</div>
+	</div>
+	<div class="section" data-anchor="thir">
+		<div class="slide">
+			<h1 id="projecttitles">Ignite</h1>
+			<a href="https://devpost.com/software/ignite-cyjk83"><img src="ignite.png"></a>
+		</div>
+		<div class="slide" >
+			<h1 id="projecttitles">ColorGame</h1>
+			<a href="
+https://nasir-kasumu.github.io/ColorGame/"><img src="colorgame.png"></a>
+		</div>
+		<div class="slide">
+			<h1 id="projecttitles">GameBoy DrumKit</h1>
+			<a href="https://nasir-kasumu.github.io/Javascript30.github.io/"><img src="gameboy.png"></a>
+		</div>
+	</div>
+	<div class="section" data-anchor="four">
+		<h1 id="contacc">Get to know me</h1>
+	<div id="contacts">
+		<a href="https://github.com/Nasir-Kasumu"><img src="github.svg"></a>
+		<a href="https://github.com/Nasir-Kasumu/resume/blob/master/Technical%20Resume.docx%205%20NSBE.pdf"><img src="resume.png"></a>
+		<a href="https://www.linkedin.com/in/nasirkasumu/"><img src="linkedin.png"></a>
+		<a href="https://devpost.com/NasKas"><img width="500px" height="500px" src="devpost.png"></a>
+	</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$('#wrapper').fullpage();
+});
+</script>
+</body>
+
+
+</html>
